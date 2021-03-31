@@ -2,18 +2,21 @@
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	line-height: 160%;
 	text-align: center;
 }
+
 .container {
 	max-width: 1140px;
 	margin: 0 auto;
 }
+
 .heading {
-	font-family: 'Gelasio', serif;	
+	font-family: 'Gelasio', serif;
 	font-weight: 500;
 	font-size: 43px;
 	line-height: 140%;
@@ -21,6 +24,7 @@ body {
 	text-align: center;
 	margin-bottom: 20px;
 }
+
 .home__heading {
 	font-weight: 700;
 	font-size: 65px;
@@ -30,6 +34,7 @@ body {
 	max-width: 800px;
 	margin-bottom: 30px;
 }
+
 .heading-3 {
 	font-family: 'Gelasio', serif;
 	font-weight: 500;
@@ -39,6 +44,7 @@ body {
 	color: #000000;
 	margin-bottom: 10px;
 }
+
 .home__text {
 	color: #FFFFFF;
 	opacity: 0.6;
@@ -46,42 +52,51 @@ body {
 	margin-bottom: 40px;
 	text-align: left;
 }
+
 .text-width {
 	max-width: 735px;
 	margin: 0 auto;
 }
+
 .header {
 	position: absolute;
-	top:0;
+	top: 0;
 	width: 100%;
 }
+
 .navbar-padding {
 	padding: 35px 0;
 }
+
 .menu {
 	justify-content: center;
 	font-weight: 500;
 	line-height: 150%;
 }
+
 .logo {
 	font-family: 'Ribeye', cursive;
 	color: #FFFFFF;
 	margin: 0;
 }
+
 .nav-item {
 	padding: 0 25px;
 }
+
 .link__btn {
 	font-size: 16px;
-  line-height: 150%;
+	line-height: 150%;
 	background: #C9453B;
 	border-radius: 5px;
 	color: #FFFFFF;
 	text-decoration: none;
 }
+
 .home__btn {
-	padding:18px 46px;
+	padding: 18px 46px;
 }
+
 .header__btn {
 	padding: 14px 36px;
 	margin: 0;
@@ -90,15 +105,20 @@ body {
 .home {
 	min-height: 100vh;
 	display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-left: 13%;
-  padding-top: 244px;
+	flex-direction: column;
+	align-items: flex-start;
+	padding-left: 13%;
+	padding-top: 244px;
 	background-image: url(img/home_bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
 }
+
+.section__margin {
+	margin-bottom: 140px;
+}
+
 .board {
 	display: flex;
 	justify-content: space-between;
@@ -106,6 +126,7 @@ body {
 	padding: 0;
 	margin-top: 50px;
 }
+
 .card {
 	width: 360px;
 	display: flex;
@@ -117,10 +138,50 @@ body {
 	border-radius: 10px;
 	margin-bottom: 20px;
 }
-.card-img {	
+
+.card-img {
 	margin-bottom: 35px;
 }
+
 .card-text {
 	margin-left: 27px;
 	margin-right: 27px;
+}
+
+.slider__heading {
+	font-family: Gelasio;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 150%;
+	color: #000000;
+}
+
+.slider__card {
+	display: flex;
+	flex-direction: column;
+	width: 262px;
+}
+
+.slider__geotag {
+	display: flex;
+	align-items: baseline;
+}
+
+.heading-city {
+	font-size: 20px;
+	line-height: 150%;
+	font-weight: 400;
+	color: #000000;
+	opacity: 0.6;
+	margin-right: 50px;
+}
+
+.img-geo {
+	margin-right: 10px;
+}
+
+.content-slider {
+	list-style: none outside none;
+	padding-left: 0;
+	margin: 0;
 }
