@@ -152,8 +152,10 @@ body {
 	font-family: Gelasio;
 	font-weight: 500;
 	font-size: 24px;
+	text-align: left;
 	line-height: 150%;
 	color: #000000;
+	margin-top: 20px;
 }
 
 .slider__card {
@@ -180,17 +182,63 @@ body {
 	margin-right: 10px;
 }
 
-.content-slider {
-	list-style: none outside none;
-	padding-left: 0;
-	margin: 0;
+.swiper-container {
+	margin-top: 60px;
+	width: 1602px;
 }
+
+.swiper-wrapper {
+	margin-bottom: 52px;
+}
+
+.swiper-slide-active {
+	opacity: 0.5;
+}
+
+.swiper-container-horizontal>.swiper-scrollbar {
+	width: 230px;
+	left: calc(50% - 145px);
+}
+
+.swiper-scrollbar {
+	background-color: #c9453b28;
+}
+
+.swiper-scrollbar-drag {
+	background-color: #c9453b;
+}
+
+.swiper-button-prev {
+	position: absolute;
+	left: 587px;
+	top: auto;
+	width: 12px;
+	height: 10px;
+	background-image: url(img/arrow_prev.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+.swiper-button-next {
+	position: absolute;
+	left: 930px;
+	top: auto;
+	width: 12px;
+	height: 10px;
+	background-image: url(img/arrow_next.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
 .duration {
 	font-size: 16px;
 	line-height: 150%;
 	text-align: left;
 	color: rgba(0, 0, 0, 0.6);
 }
+
 .price {
 	font-weight: 500;
 	font-size: 18px;
